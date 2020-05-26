@@ -1,0 +1,170 @@
+ /* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #333333; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  outline: none;
+}
+
+/* The navigation menu links */
+.sidenav a.terhover {
+  padding-top:20px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 13px; 
+  color: #f1f1f1;
+  display: block;
+  text-align: center;
+}
+
+.home-control {
+  padding-top:20px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 13px; 
+  color: #f1f1f1;
+  display: block;
+  text-align: center;
+}
+
+.home-control:hover {
+  color: #666666;
+}
+
+/*nama logo*/
+.sidenav p {
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  font-size: 15px; 
+  margin-top: -15px;
+  text-align: center;
+}
+
+/* When you mouse over the navigation links, change their color */
+.terhover:hover {
+  color: #fff;
+  background-color: #111;
+
+}
+
+/* Logo untuk sidebar */
+.logo_sidebar {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -17px;
+}
+
+/*Logo pilihan*/
+.logo_pilihan {
+  width: 30px;
+}
+/* Style page content */
+.main {
+  margin-left: 260px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+  color: white;
+  margin-right: 100px;
+}
+/* Isi teks */
+.main h2 {
+  margin-bottom: 0;
+  font-size: 40px;
+  text-align: left;
+  color: #cccccc
+}
+.main p {
+  text-align: justify;
+  color: #999999
+}
+
+.main h3 {
+  font-size: 30px;
+  color: #cccccc; 
+  text-align: center;
+  margin-top: 5px;
+}
+
+.foto_profil {
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  border: solid white 1px;
+}
+
+.deskripsi-profil {
+  margin-top: -10px;
+  color: #cccccc
+  margin-bottom: 0;
+}
+
+.logo_utama {
+  width: 700px;
+  margin-left: 130px;
+  margin-top: -100px;
+  margin-bottom: -50px;
+}
+
+#home {
+  text-align: center; 
+  font-family: impact; 
+  font-size: 72px;
+  margin-top: 0px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #f56040;
+  color: white;
+}
+
+.logo-contact {
+  margin-left: 25px;
+  margin-right: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.text-contact {
+  padding-top: -10px;
+  position: relative;
+  bottom: 28px;
+  color: #999999
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
